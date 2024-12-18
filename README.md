@@ -1,5 +1,5 @@
 # Max The Great's Changed Zombie Vomit Mod
-Mod for Planet Centauri 1.0 changing the attack of the zombie from a sprite sheet to a cleaner projectile attack fixing awkward moment when your zombie's vomit just lands in the air. 
+Mod for Planet Centauri 1.0 changing the attack of the zombie from a sprite sheet to a cleaner projectile attack fixing awkward moments when your zombie's vomit just lands in the air. 
 
 ## Gif:
 ![blurg](https://github.com/user-attachments/assets/23ef73e0-703e-4fed-b50c-e5f6d4a1d2e9)
