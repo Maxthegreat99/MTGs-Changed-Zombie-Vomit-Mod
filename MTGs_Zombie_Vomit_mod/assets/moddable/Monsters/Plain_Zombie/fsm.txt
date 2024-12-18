@@ -1,0 +1,109 @@
+
+
+// cond condition_expr T_node F_node
+
+
+Problemes:
+- comment gérer les conditions multiples (AND par ex) ?
+=> peut être géré directement dans la node COND ?
+- 
+
+
+Features possibles:
+- FSM haut niveau qui permet de voir les transitions entre states
+sans être obstrué par toute la logique associée
+- edition nodale/code blueprint pour définir les transitions entre
+states et la logique de base
+- définition des states, association des sprites, binding des sfx...
+- integrer des callbacks afin de pouvoir ajouter du code custom depuis
+le script du monstre (on veut pas forcement toute la logique dans
+l'editeur graphique)
+- generation du code lua 'en live' pour chaque node, ce qui permet
+d'apprendre ou voir le lua généré depuis les blueprints
+
+Bonus si possible:
+- possibilité de définir visuellement les hitboxes
+- possibilité de définir visuellement la bounding box?
+- visualiser et changer les anchor des sprites
+- possibilité de visualiser les sprites animés
+- voir "en live" les transitions d'états, les animations associées etc,
+comme si on pouvait controler l'entité 'sans physique'
+
+
+
+Ce qui va dépendre de l'UI:
+- la node CHECK: plusieurs touches possibles? Plusieurs règles possibles?
+ Ex: check(Left) xor check(Right)
+ Ex: check(MouseLeft) and check(Down)
+
+
+
+Nodes:
+- cond: prend une condition lua en input (sous forme de texte?)
+  - 2 outputs: branch True, False
+- check: comme cond mais directement sur check(Key), avec possibilité
+  de tester plusieurs touches en même temps
+  => Possibilité de tester les non appuie de touches aussi? Ou chiant?
+
+
+
+Supernodes generiques:
+- Idle Land Monster:
+ - animation speed
+ - key1 => state
+ ...
+ - keyn => state
+=> transistors jumpair etc automatiquement assignées
+
+
+Idle
+[
+
+0 instr animate 0.12 1
+
+1 cond on_ground 3 2
+
+2 state JumpAir
+
+3 cond check Space 8 4
+
+4 cond check MouseLeft 9 5
+
+5 cond checkMovementInput 10 6
+
+6 cond lua "self.inputs:check(InputKey.Action1) and entity:onDiggableGround()" 11 7
+
+7 nop
+
+8 state JumpStart
+
+9 cond check(Down) 13 12
+
+10 state Move
+
+11 state Dig
+
+12 state Attack
+
+13 state Attack2
+
+]
+
+
+
+0 animate 0.12 1
+1 expr on_ground 3 2
+2 state JumpAir
+3 check Space 8 4
+4 check MouseLeft 9 5
+5 expr checkMovementInput 10 6
+6 expr self.inputs:check(InputKey.Action1) and entity:onDiggableGround() 11 7
+7 nop 
+8 state JumpStart
+9 check Down 13 12
+10 state Move
+11 state Dig
+12 state Attack
+13 state Attack2
+
+

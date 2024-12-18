@@ -1,0 +1,20 @@
+
+{
+
+SpellSystem:
+{
+  
+  zombie_spit:
+  {
+    load_json "zombie_spit.json"
+    damage_multiplier 4 1
+  }
+  
+  zombie_big_spit:
+  {
+    load_json "zombie_big_spit.json"
+    damage_multiplier 4 1
+  }
+}
+
+}

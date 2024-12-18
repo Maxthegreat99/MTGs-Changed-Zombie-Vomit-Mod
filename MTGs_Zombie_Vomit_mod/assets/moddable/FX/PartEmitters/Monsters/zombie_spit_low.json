@@ -1,0 +1,11 @@
+
+[
+{
+"ind":"particles_zombie_spit",
+"spawn_kind":"disk",
+"orientation":"default",
+"count_min":-10,
+"count_max":-5
+}
+]
+

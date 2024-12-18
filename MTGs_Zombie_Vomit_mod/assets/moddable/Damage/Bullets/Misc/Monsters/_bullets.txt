@@ -1,0 +1,89 @@
+{
+
+Bullet:
+{
+  pc_bullet_mother_zombi_spit:
+  {
+    "pc_bullet_mother_zombi_spit.png" 30 30 0.0
+    "pc_bullet_mother_zombi_spit.png" 30 30 0.0
+    
+    240 180 240
+    // damages
+    1 0 0 0  0 0 0 0 0 0  0 0 0  {}
+    // damage blocks
+    0
+    // sound
+    void
+    
+    next_frame_rotation_angle -5
+    
+    size 29
+    grow_at_start
+    //damage_blocks_at_death 50
+    //hit_force keen 2 1
+    
+    //gfx_step pc_part_em_mother_zombi_spit
+  }
+  
+  bullet_zombie_spit:
+  {
+    "blurgh.png" 30 30 0.0
+    "blurgh.png" 30 30 0.0
+    
+    37 168 61
+    // damages
+    1 0 0 0  0 0 0 0 0 0  0 0 0  {}
+    // damage blocks
+    0
+    // sound
+    void
+    
+    next_frame_rotation_angle -5
+    
+    size 29
+    grow_at_start
+    //damage_blocks_at_death 50
+    //hit_force keen 2 1
+    
+    //gfx_step pc_part_em_mother_zombi_spit
+  }
+
+
+  pc_bullet_drone_rocket:
+  {
+    "drone.png" 7 7 0
+    "drone.png" 7 7 0
+
+    0 0 0
+
+    // Physical Damages (pierce, blunt, cut, expode)
+    0 0 0 0
+    // Elemental Damages (fire, ice, rock, thunder, light, shadow)
+    0 0 0 0 0 0
+    // Recul (pourcentage)
+    0 0 0
+    // Suffixes
+    {}
+
+    // damage blocks
+    0
+
+    // sound
+    void
+
+    explosion pc_damager_explosion_rocket 100 1
+  }
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+

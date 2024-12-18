@@ -1,0 +1,47 @@
+{
+
+ParticleEmitter:
+{
+  part_zombie_spit:
+  {
+    box -1 -1 1 1
+    load_json "zombie_spit.json"
+  }
+  part_zombie_spit2:
+  {
+    box -1 -1 1 1
+    load_json "zombie_spit2.json"
+  }
+  
+  pc_part_em_mother_zombi_spit:
+  {
+    box -1 -1 1 1
+    load_json "mother_zombi_spit.json"
+  }
+  
+  pc_part_em_mother_zombi_spit2:
+  {
+    box -1 -1 1 1
+    load_json "mother_zombi_spit2.json"
+  }
+  
+  // generic part emitter for bullets
+  pc_part_em_mother_zombi_spit_low:
+  {
+    box -1 -1 1 1
+    load_json "mother_zombi_spit_low.json"
+  }
+  pc_part_em_mother_zombi_spit_explosion_low:
+  {
+    box -1 -1 1 1
+    load_json "mother_zombi_spit_explosion_low.json"
+  }
+  part_zombie_spit_low:
+  {
+    box -1 -1 1 1
+    load_json "zombie_spit_low.json"
+  }
+}
+
+}
+

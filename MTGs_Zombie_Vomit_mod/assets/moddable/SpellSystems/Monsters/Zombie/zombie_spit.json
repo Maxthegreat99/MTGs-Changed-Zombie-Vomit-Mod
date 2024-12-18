@@ -1,0 +1,48 @@
+{
+  "bursts": [
+    [
+      {
+        "index":0,
+        "time":0,
+        "accuracy":0.8
+      }
+    ]
+  ],
+  
+  "spells":[
+    {
+      "spell": {
+        "type":"bullet",
+        "data": {
+          "ind":"bullet_zombie_spit",
+          "scale":0.70,
+          "damages":1.0,
+          "range":400,
+          "motion": {
+            "type":"gravity",
+            "data": {
+              "speed":6,
+              "gravity":0.4
+            }
+          },
+          "iterations":1,
+          "gfx_step":"part_zombie_spit_low",
+          "gfx_death":"part_zombie_spit2"
+        }
+      },
+      
+      "spawn": {
+        "type":"relative",
+        "angle":0
+      },
+      
+      "burst": [
+        {
+          "commands": [
+            "arc 3 40 1"
+          ]
+        }
+      ]
+    }
+  ]
+}

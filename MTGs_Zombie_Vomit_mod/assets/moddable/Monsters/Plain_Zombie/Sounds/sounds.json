@@ -1,0 +1,11 @@
+{
+
+"sounds":
+[
+{"name":"attack", "file":"attack.wav"},
+{"name":"vomit_thing", "file":"vomit_thing.wav"},
+{"name":"hurt", "file":"hurt.wav", "preload":true},
+{"name":"die", "file":"die.wav", "preload":true}
+]
+
+}

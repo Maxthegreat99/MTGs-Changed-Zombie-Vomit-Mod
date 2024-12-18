@@ -1,0 +1,84 @@
+{
+
+Particles:
+{
+  pc_particles_earth_column:
+  {
+    "rock_2.png"
+    ps_physical
+    
+    attribs "rock.json"
+  }
+  
+  pc_particles_shadow_ball:
+  {
+    parent pc_part_shape_shadow1
+    attribs "shadow_ball.json"
+  }
+  
+  pc_particles_expel_gfx:
+  {
+    "expel_gfx_17.png"
+    ps_shadowed
+    attribs "expel_gfx.json"
+  }
+  
+  pc_particles_mother_zombi_spit:
+  {
+    "mother_zombi_spit_6.png"
+    ps_shadowed
+    ps_physical
+    attribs "mother_zombi_spit.json"
+  }
+  
+  particles_zombie_spit:
+  {
+    "zombie_spit_6.png"
+    ps_shadowed
+    ps_physical
+    attribs "zombie_spit.json"
+  }
+  particles_zombie_spit2:
+  {
+    "zombie_spit_6.png"
+    ps_shadowed
+    ps_physical
+    attribs "zombie_spit2.json"
+  }
+    
+  pc_particles_mother_zombi_spit2:
+  {
+    "mother_zombi_spit_6.png"
+    ps_shadowed
+    ps_physical
+    attribs "mother_zombi_spit2.json"
+  }
+  
+  pc_particles_shadow_explosion:
+  {
+    parent pc_part_shape_shadow1
+    attribs "shadow_explosion.json"
+  }
+  
+  pc_particles_shadow_skull1:
+  {
+    "shadow_skull_11.png"
+    attribs "shadow_skull.json"
+  }
+  
+  pc_particles_fireball:
+  {
+    "fireball.png"
+    ps_blended
+    attribs "fireball.json"
+  }
+  
+  pc_particles_fireball_big:
+  {
+    "fireballbig.png"
+    ps_blended
+    attribs "fireball_big.json"
+  }
+}
+
+}
