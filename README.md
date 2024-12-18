@@ -14,7 +14,7 @@ Mod for Planet Centauri 1.0 changing the attack of the zombie from a sprite shee
 
 # Credits
 - Programming by yours truly 
-- [Onilink](http://ic.onidev.fr/en/index.html) who helped me make 90% of this mod by answer
+- [Onilink](http://ic.onidev.fr/en/index.html) who helped me make 90% of this mod by answering questions
 - spaghettiinabucket who made the sprites, fr thx to him (ill never have his art skills)
 - Redigit or whatever sound designer there is at Relogic tbh (we used the WoF summon leech sound effect for the vomit sound)
 
