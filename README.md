@@ -18,6 +18,9 @@ Mod for Planet Centauri 1.0 changing the attack of the zombie from a sprite shee
 - spaghettiinabucket who made the sprites, fr thx to him (ill never have his art skills)
 - Redigit or whatever sound designer there is at Relogic tbh (we used the WoF summon leech sound effect for the vomit sound)
 
+# Bugs
+If you get a bug for now you can ping me there: https://discord.gg/xRHXJQN9rn
+
 # The Game
 if you dont know Planet Centauri go check it out they just released 1.0, a lot of reviews arent favoring them on steam but mostly because the game has a lot of rough edges and is only made by 2 guys who dedicate their time and money to give us this game. In a few years this game might be absolutely great 
 
