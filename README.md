@@ -5,6 +5,7 @@ Mod for Planet Centauri 1.0 changing the attack of the zombie from a sprite shee
 ![blurg](https://github.com/user-attachments/assets/23ef73e0-703e-4fed-b50c-e5f6d4a1d2e9)
 
 # How to install 
+- Clear your game's cache in game settings and uncheck both checkboxes there
 - backup your assets folder by creating an archive for it
 - download the .zip
 - drag the .zip to your game's folder, the one with the .exe (accessible via steam's browse local files option)
