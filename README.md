@@ -10,6 +10,7 @@ Mod for Planet Centauri 1.0 changing the attack of the zombie from a sprite shee
 - download the .zip
 - drag the .zip to your game's folder, the one with the .exe (accessible via steam's browse local files option)
 - extract the file
+- make sure to move the file's asset folder to the same directory where your game's asset folder is located
 - overwrite any files it asks to overwrite
 - enjoy zombie vomit that actually obey the laws of physics
 
